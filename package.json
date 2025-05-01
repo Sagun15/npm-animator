@@ -1,6 +1,6 @@
 {
   "name": "npm-animator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Beautiful terminal animations for npm commands with detailed package status tracking",
   "main": "index.js",
   "bin": {
