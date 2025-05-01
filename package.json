@@ -1,0 +1,45 @@
+{
+  "name": "npm-animator",
+  "version": "1.0.2",
+  "description": "Beautiful terminal animations for npm commands with detailed package status tracking",
+  "main": "index.js",
+  "bin": {
+    "npm-animator": "./bin/npm-animator.js"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "npm",
+    "cli",
+    "animation",
+    "spinner",
+    "progress",
+    "terminal",
+    "ui",
+    "install",
+    "update"
+  ],
+  "author": "Sagun Sangwan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-spinners": "^2.7.0",
+    "figures": "^3.2.0",
+    "log-update": "^4.0.0",
+    "ora": "^5.4.1",
+    "string-width": "^4.2.3",
+    "yargs": "^17.7.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sagun15/npm-animator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sagun15/npm-animator/issues"
+  },
+  "homepage": "https://github.com/Sagun15/npm-animator#readme"
+}
